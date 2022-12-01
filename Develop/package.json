@@ -1,0 +1,27 @@
+{
+  "name": "note-taker",
+  "version": "1.0.0",
+  "description": "A note-taking application that uses Express.js that will save and retrieve notes",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Shawn Smith (shwnsmith12)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "inquirer": "^7.3.3",
+    "uuid": "^8.3.0",
+    "v1": "^1.0.0",
+    "v4": "0.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shwnsmith12/note-taker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shwnsmith12/note-taker/issues"
+  },
+  "homepage": "https://github.com/shwnsmith12/note-taker#readme"
+}

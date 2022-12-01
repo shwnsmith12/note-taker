@@ -2,7 +2,7 @@
 const router = require('express').Router();
 const saveData = require('../db/saveData');
 
-// This is the Get Request, with a catch in case of an error
+// This is the Get Request, with a catch error throw in case of unexpected issues
 router.get('/notes', function (req, res) {
     saveData
         .retrieveNotes()
@@ -10,7 +10,7 @@ router.get('/notes', function (req, res) {
         .catch(err => res.status(500).json(err));
 });
 
-// This is the Post Request, with a catch in case of an error
+// This is the Post Request, with a catch error throw in case of unexpected issues
 router.post('/notes', (req, res) => {
     saveData
         .addNote(req.body)

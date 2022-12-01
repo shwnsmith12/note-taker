@@ -1,6 +1,1 @@
-[
-    {
-        "title":"Test Title",
-        "text":"Test text"
-    }
-]
+[{"title":"Test Title","text":"Test text"},{"title":"Test Note","text":"This is a test to see if the note taker works\n","id":"1e2beea6-6265-469c-bb10-264a048bc8e7"},{"title":"Test 2","text":"Second test for notes\n","id":"42cf6f98-a160-424a-906d-62dfb4a4939b"},{"title":"Test 3","text":"Test 3 for Notes Taken","id":"8d1e2ba4-6c72-42bd-8344-1e62e3795a60"}]
